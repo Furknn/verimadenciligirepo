@@ -1,7 +1,7 @@
 #ClassificationReport
 from sklearn.metrics import classification_report
 from sklearn.preprocessing import binarize
-pred=binarize(pred)
+
 
 y_pred=model.predict_classes(X_test)
 
